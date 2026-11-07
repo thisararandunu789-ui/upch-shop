@@ -5,7 +5,6 @@ import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { fmtRs, fmtDate } from "@/lib/utils";
 
-export const dynamic = 'force-dynamic';
 
 export default function JobDetailPage() {
   const { id } = useParams();

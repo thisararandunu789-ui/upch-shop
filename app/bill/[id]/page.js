@@ -4,8 +4,6 @@ import { useParams, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { formatPhone, fmtMoney, fmtDate, fmtWarranty } from "@/lib/utils";
 
-// 🆕 මේ පේළිය අනිවාර්යයෙන් එකතු කරන්න
-export const dynamic = 'force-dynamic'; 
 
 const FALLBACK_BG = "https://ovwyirtkxyzvupjzbjyg.supabase.co/storage/v1/object/public/bill-templates/bill-template_Page_1.png";
 

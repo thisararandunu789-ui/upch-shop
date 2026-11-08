@@ -1,4 +1,6 @@
 "use client";
+export const instant = false; // 🆕 මේක එකතු කරන්න
+
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { useLock } from "@/contexts/LockContext";
